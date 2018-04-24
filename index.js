@@ -15,7 +15,7 @@ function nowServing(shift) {
 
 function currentLine(line) {
   if(line.length === 0) {
-    return return 'The line is currently empty.';
-  } else {return ``}
+     return 'The line is currently empty.';
+  } else {return `The line is currently:${line}`}
 }
 

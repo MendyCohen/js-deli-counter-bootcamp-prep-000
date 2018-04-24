@@ -11,19 +11,19 @@ if(firstOnLine === 1) {
 } else {return "There is nobody waiting to be served!"}
 } */ 
 
-function nowServing(firstOnLine) {
+/* function nowServing(firstOnLine) {
   firstOnLine.shift();
 if(firstOnLine.length === 0) {
   return "There is nobody waiting to be served!";
 } 
-} 
+} */
 
 /* function nowServing(line) {
   if (line.length === 0) {
     return "There is nobody waiting to be served!";
   } else {
     var person = line.shift();
-    return "now serving " + person;
+    return `Currently serving ${shift[0]}.`;
   }
 } */
 

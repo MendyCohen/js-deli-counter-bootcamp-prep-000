@@ -32,3 +32,4 @@ if(firstOnLine.length === 0) {
   return "There is nobody waiting to be served!";
 } else {return firstOnLine.shift()}
 }
+

@@ -11,5 +11,5 @@ function nowServing(firstOnLine) {
     "There is nobody waiting to be served!";
   } else {
     firstOnLine.shift();
-  } return firstOnLine;
+  } //return firstOnLine;
 }

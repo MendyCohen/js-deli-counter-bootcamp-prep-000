@@ -1,6 +1,6 @@
 var katzDeli = [];
 
-function takeANumber(a, b) {
+function takeANumber(katzDeliLine, b) {
  var takeANumber = (katzDeliLine, "Ada");
   return takeANumber;
 }

@@ -6,5 +6,5 @@ return `Welcome, ${name}. You are number ${currentLine.length} in line.`;
 }
 
 function nowServing() {
-  return name.pop();
+  
 }

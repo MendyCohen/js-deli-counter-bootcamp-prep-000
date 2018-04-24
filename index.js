@@ -6,5 +6,6 @@ return `Welcome, ${name}. You are number ${currentLine.length} in line.`;
 }
 
 function nowServing(firstOnLine) {
-   do("")
+   do{"There is nobody waiting to be served!"}
+   while()
 }

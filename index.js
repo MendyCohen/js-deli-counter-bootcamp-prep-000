@@ -2,7 +2,7 @@
 
 function takeANumber(a, b) {
   var katzDeliLine = [];
-  katzDeliLine.push(a[b]);
+  katzDeliLine.push(b[a]);
   return katzDeliLine;
 }
 

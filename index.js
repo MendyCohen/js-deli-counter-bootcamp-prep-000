@@ -33,8 +33,8 @@ if(firstOnLine.length === 0) {
 } else {return firstOnLine.shift()}
 }
 
-function nowServing(line) {
-  return `Currently servinf ${line}`; 
-  line.shift();
+function nowServing(shift) {
+  return `Currently servinf ${shift}`; 
+  shift.shift();
 }
 

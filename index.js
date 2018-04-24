@@ -1,8 +1,9 @@
 var katzDeli = [];
 
 function takeANumber(currentLine, name) {
-  currentLine
+  if(currentLine === true) {
  return name[0];
+  }
 }
 
 

@@ -23,7 +23,7 @@ if(firstOnLine.length === 0) {
     return "There is nobody waiting to be served!";
   } else {
     var person = line.shift();
-    return `Currently serving ${shift[0]}.`;
+    return `Currently serving ${line[0]}.`;
   }
 } 
 

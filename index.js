@@ -6,11 +6,12 @@ return `Welcome, ${name}. You are number ${currentLine.length} in line.`;
 }
 
 function nowServing(waitTime) {
- var please = `Currently serving ${waitTime[0]}.`;
- waitTime.shift();
- if(waitTime.length === 0) {
+  if(waitTime.length === 0) {
    return "There is nobody waiting to be served!";
- } return please;
+  } else { 
+    var please = `Currently serving ${waitTime[0]}.`;
+ waitTime.shift();
+  } return please;
 }
 
 function currentLine(line) {

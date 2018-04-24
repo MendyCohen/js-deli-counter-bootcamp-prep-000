@@ -16,16 +16,16 @@ if(firstOnLine === 1) {
 if(firstOnLine.length === 0) {
   return "There is nobody waiting to be served!";
 } 
-} */
+} 
 
- function nowServing(line) {
+/* function nowServing(line) {
   if (line.length === 0) {
     return "There is nobody waiting to be served!";
   } else {
     var person = line.shift();
-    return `Currently serving ${line[0]}.`;
+    return `Currently serving ${shift[0]}.`;
   }
-} 
+} */
 
 /* function nowServing(firstOnLine) {
 if(firstOnLine.length === 0) {
@@ -33,9 +33,9 @@ if(firstOnLine.length === 0) {
 } else {return firstOnLine.shift()}
 } */
 
-/*function nowServing(shift) {
+function nowServing(shift) {
  var please = `Currently serving ${shift[0]}.`;
  shift.shift();
  return please;
-}*/
+}
 

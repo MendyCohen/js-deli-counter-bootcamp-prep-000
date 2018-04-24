@@ -5,10 +5,10 @@ var katzDeli = [];
 return `Welcome, ${name}. You are number ${currentLine.length} in line.`;
 }
 
-function nowServing(name) {
-  if(katzDeliLine === 0) {
+function nowServing(firstOnLine) {
+  if(firstOnLine === 0) {
     "There is nobody waiting to be served!";
   } else {
-    katzDeliLine.shift();
-  } return katzDeliLine;
+    firstOnLine.shift();
+  } return firstOnLine;
 }

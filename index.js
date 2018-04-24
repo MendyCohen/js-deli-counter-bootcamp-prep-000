@@ -30,5 +30,5 @@ if(firstOnLine.length === 0) {
 function nowServing(firstOnLine) {
 if(firstOnLine === 0) {
   return "There is nobody waiting to be served!";
-} else {return firstOnLine}
+} else {return firstOnLine.shift()}
 }

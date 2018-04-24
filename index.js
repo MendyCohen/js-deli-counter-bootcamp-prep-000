@@ -6,9 +6,9 @@ return `Welcome, ${name}. You are number ${currentLine.length} in line.`;
 }
 
 function nowServing(name) {
-  if(name === 0) {
+  if(katzDeliLine === 0) {
     "There is nobody waiting to be served!";
   } else {
-    name.pop();
-  } return name;
+    katzDeliLine.pop();
+  } return katzDeliLine;
 }

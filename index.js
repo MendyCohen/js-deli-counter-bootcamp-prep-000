@@ -9,7 +9,7 @@ return `Welcome, ${name}. You are number ${currentLine.length} in line.`;
 if(firstOnLine === 1) {
   return firstOnLine;
 } else {return "There is nobody waiting to be served!"}
-} */
+} */ 
 
 function nowServing(firstOnLine) {
   firstOnLine.shift();

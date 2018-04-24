@@ -35,6 +35,6 @@ if(firstOnLine.length === 0) {
 
 function nowServing(shift) {
   return `Currently serving ${shift[0]}.`; 
-  shift.shift();
+  //shift.shift();
 }
 

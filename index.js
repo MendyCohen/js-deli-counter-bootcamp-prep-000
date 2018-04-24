@@ -1,7 +1,8 @@
 var katzDeli = [];
 
-function takeANumber(katzDeliLine, b) {
- var takeANumber = (katzDeliLine, "Ada");
+function takeANumber(a, b) {
+ var katzDeliLine = [];
+ takeANumber(katzDeliLine, "Ada");
   return takeANumber;
 }
 

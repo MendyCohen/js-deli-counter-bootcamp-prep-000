@@ -29,6 +29,6 @@ if(firstOnLine.length === 0) {
 
 function nowServing(firstOnLine) {
 if(firstOnLine === 0) {
-  return firstOnLine;
-} else {return "There is nobody waiting to be served!"}
+  return "There is nobody waiting to be served!";
+} else {return firstOnLine}
 }

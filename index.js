@@ -36,9 +36,9 @@ if(firstOnLine.length === 0) {
 function nowServing(shift) {
  var please = `Currently serving ${shift[0]}.`;
  shift.shift();
- return please;
+ //return please;
  if(shift.length === 0) {
    return "There is nobody waiting to be served!";
- }
+ } return please;
 }
 

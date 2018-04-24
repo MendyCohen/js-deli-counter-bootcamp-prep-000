@@ -1,9 +1,9 @@
 var katzDeli = [];
 
-function takeANumber(katzDeliLine, b) {
- var line = [];
- line.push(b);
- return line;
+function takeANumber(a, b) {
+ var katzDeliLine = [];
+ katzDeliLine.push(b);
+ return katzDeliLine;
 }
 
 

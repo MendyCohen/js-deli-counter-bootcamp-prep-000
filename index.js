@@ -1,8 +1,8 @@
 var katzDeli = [];
 
-function takeANumber(a, b) {
- var katzDeliLine = [katzDeliLine:];
- katzDeliLine.push(b);
+function takeANumber(katzDeliLine, b) {
+ var line = [];
+ line.push(katzDeliLine);
  return katzDeliLine;
 }
 

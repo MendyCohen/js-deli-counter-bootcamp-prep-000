@@ -1,8 +1,9 @@
 //var katzDeli = [];
 
 function takeANumber(a, b) {
-  //var katzDeliLine = [];
+  var katzDeliLine = [];
   katzDeliLine.push(b[1]);
+  return katzDeliLine;
 }
 
 

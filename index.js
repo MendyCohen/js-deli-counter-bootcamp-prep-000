@@ -1,7 +1,8 @@
 var katzDeli = [];
 
 function takeANumber(currentLine, name) {
-   currentLine.push(name.length);
+   currentLine.push(name);
+currentLine.length;
 return currentLine;
 }
 

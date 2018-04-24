@@ -6,8 +6,7 @@ return `Welcome, ${name}. You are number ${currentLine.length} in line.`;
 }
 
 function nowServing(firstOnLine) {
-   do{"There is nobody waiting to be served!";
-     
-   }  while(firstOnLine.shift());
-   return firstOnLine;
+if(firstOnLine === 1) {
+  return firstOnLine;
+} else {return "There is nobody waiting to be served!"}
 }

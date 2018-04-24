@@ -13,3 +13,6 @@ function nowServing(shift) {
  } return please;
 }
 
+function currentLine(line) {
+  
+}

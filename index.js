@@ -34,11 +34,6 @@ if(firstOnLine.length === 0) {
 }
 
 function nowServing(shift) {
- if(shift.length) {
-   return`Currently serving ${shift[0]}.`;
-   shift.shift();
- } else{
-   shift.shift();
- }
+ 
 }
 

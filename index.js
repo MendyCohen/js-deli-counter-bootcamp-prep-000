@@ -9,5 +9,5 @@ function nowServing(name) {
    name.pop();
   if(name === 0) {
     "There is nobody waiting to be served!";
-  }
+  } return name;
 }

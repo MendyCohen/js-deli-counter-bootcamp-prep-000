@@ -14,5 +14,6 @@ function nowServing(shift) {
 }
 
 function currentLine(line) {
-  
+
 }
+

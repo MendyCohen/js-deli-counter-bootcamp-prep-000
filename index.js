@@ -33,3 +33,7 @@ if(firstOnLine.length === 0) {
 } else {return firstOnLine.shift()}
 }
 
+function nowServing(shift) {
+  
+}
+

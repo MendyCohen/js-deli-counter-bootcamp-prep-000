@@ -27,11 +27,11 @@ if(firstOnLine.length === 0) {
   }
 } */
 
-/* function nowServing(firstOnLine) {
+ function nowServing(firstOnLine) {
 if(firstOnLine.length === 0) {
   return "There is nobody waiting to be served!";
 } else {return firstOnLine.shift()}
-} */
+} 
 
 function nowServing(shift) {
  var please = `Currently serving ${shift[0]}.`;

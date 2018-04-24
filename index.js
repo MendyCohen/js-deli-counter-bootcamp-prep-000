@@ -6,5 +6,8 @@ return `Welcome, ${name}. You are number ${currentLine.length} in line.`;
 }
 
 function nowServing() {
-  
+   name.pop();
+  if(name === 0) {
+    "There is nobody waiting to be served!";
+  }
 }

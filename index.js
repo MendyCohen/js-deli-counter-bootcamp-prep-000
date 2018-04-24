@@ -6,7 +6,7 @@ return `Welcome, ${name}. You are number ${currentLine.length} in line.`;
 }
 
 function nowServing(firstOnLine) {
-  return firstOnLine;
+   firstOnLine;
   if(firstOnLine === 0) {
     "There is nobody waiting to be served!";
   } else {

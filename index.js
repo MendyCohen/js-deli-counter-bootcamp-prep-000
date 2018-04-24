@@ -18,14 +18,14 @@ if(firstOnLine.length === 0) {
 } 
 } */
 
-/* function nowServing(line) {
+ function nowServing(line) {
   if (line.length === 0) {
     return "There is nobody waiting to be served!";
   } else {
     var person = line.shift();
     return `Currently serving ${shift[0]}.`;
   }
-} */
+} 
 
 /* function nowServing(firstOnLine) {
 if(firstOnLine.length === 0) {
